@@ -35,7 +35,7 @@ export default class State extends Component {
   render() {
     return (
       <>
-        <h1>state component returning {this.state.name}</h1>
+        <h1>state component returning name: {this.state.name}</h1>
         <button onClick={() => this.changeMessage()}> change content</button>
       </>
     )

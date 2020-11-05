@@ -76,6 +76,12 @@ React.Props:
 	Props are arguments passed into React components.
 
     Props are passed to components via HTML attributes.
+	
+React State:
+
+	The state object is where you store property values that belongs to the component.
+
+	When the state object changes, the component re-renders
 	 
 	
 	
