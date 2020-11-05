@@ -11,6 +11,8 @@ import { PropsDemo } from './components/PropsDemo'
 import { Props } from './components/Props'
 import { Thisprps } from './components/Thisprps'
 import State from './components/State'
+import Item from './components/Item'
+
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
         <h2>Hello world</h2>
       </Thisprps>*/}
       <State></State>
+      <Item></Item>
     </div>
   );
 }
