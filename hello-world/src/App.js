@@ -9,6 +9,7 @@ import { Jsxelement } from './components/JSXElement'
 import ClassComponent from './components/ClassComponent'
 import { PropsDemo } from './components/PropsDemo'
 import { Props } from './components/Props'
+import { Thisprps } from './components/Thisprps'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         <h3>This is children element</h3>
       </Props>
       <Props name="priya"></Props>
+      <Thisprps name="abc">
+        <h2>Hello world</h2>
+      </Thisprps>
     </div>
   );
 }
