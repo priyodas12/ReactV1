@@ -10,6 +10,7 @@ import ClassComponent from './components/ClassComponent'
 import { PropsDemo } from './components/PropsDemo'
 import { Props } from './components/Props'
 import { Thisprps } from './components/Thisprps'
+import State from './components/State'
 
 function App() {
   return (
@@ -20,13 +21,14 @@ function App() {
       {/*<Jsxelement ></Jsxelement>*/}
       {/*<PropsDemo name='abc' date='12-12-2018' />*/}
       {/*<PropsDemo name='dec' date='23-02-2009' />*/}
-      <Props name="priyo">
+      {/*<Props name="priyo">
         <h3>This is children element</h3>
       </Props>
       <Props name="priya"></Props>
       <Thisprps name="abc">
         <h2>Hello world</h2>
-      </Thisprps>
+      </Thisprps>*/}
+      <State></State>
     </div>
   );
 }
