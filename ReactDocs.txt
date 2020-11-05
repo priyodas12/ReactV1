@@ -1,0 +1,98 @@
+React:
+
+1.Opensource library for building user interface.
+2.not a framework
+3.focus on UI
+4.Rich eco-system.
+
+Component Based Achitechture:
+1.Reusable code
+2.declarative-tell what have to be done,dont tell how to,React will take care of creating it,DOM updates are handled gracefully in React
+
+ES6:
+let and const
+arrow function
+template literal
+default parameter
+object literals
+rest and spread operator
+destruturing assignment
+
+React Folder Structure:
+
+1.Package.json: contains dependency and script to execute application:run.test,building
+
+2.package-lock.json: ensures consistant installation of dependency.
+
+3.Node-Modules: all dependency are installed here.
+
+4.Public: 
+	1.maifest.json: PWA
+	2.fabicon.ico: places the application icon.
+	3.index.html: only html page in this application, only this html serves application UI.
+	
+5.SRC:
+	1.index.js: DOM element controled by this JS ,but manuplation of root elemnt in div of index.html
+	
+	2.index.css and app.css: for styling the respective page.
+	
+	3.serviceWorker.js: for PWA.
+	
+	
+React Component:
+
+	describes a part of the user interface.
+	
+	building block of react application.
+	
+	they are reusable and can be nested inside other components.
+	
+	A.stateless functional components
+	B.statefull class components
+
+Functional Components:
+
+	 javascript function
+	 
+	 properties(props)-->javascript function-->HTML(JSX)
+	 
+Class COmponent:
+	
+	ES6 class
+	
+	should have a render method
+
+JSX:
+	javascript XML-Extension to the Javascript language syntax.
+	
+	write XML-like code for elements and components
+	
+	JAX tags have a tag name,attribute and children.
+	
+	 
+	
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
